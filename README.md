@@ -196,6 +196,8 @@ information on what to include when reporting a bug.
    regained focus (#1648,#1802)
  - [Cocoa] Bugfix: Monitor name query could segfault on macOS 11 (#1809,#1833)
  - [Cocoa] Bugfix: The install name of the installed dylib was relative (#1504)
+ - [Cocoa] Bugfix: The MoltenVK layer contents scale was updated only after
+   related events were emitted
  - [X11] Bugfix: The CMake files did not check for the XInput headers (#1480)
  - [X11] Bugfix: Key names were not updated when the keyboard layout changed
    (#1462,#1528)
@@ -369,6 +371,7 @@ skills.
  - Adam Marcus
  - Célestin Marot
  - Kyle McDonald
+ - David V. McKay
  - David Medlock
  - Bryce Mehring
  - Jonathan Mercier
