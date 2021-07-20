@@ -42,7 +42,7 @@ project "GLFW"
 		}
 
 	filter "system:linux"
-		pic "On"
+		pic "on"
 
 		systemversion "latest"
 
